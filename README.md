@@ -39,14 +39,14 @@ sh deploy.sh
 docker ps
 ```
 
-### Stop container
-```console
-docker container stop "{CONTAINER_ID}" 
-```
-
-
 ### Connect to CVS
 ```console
 export CVSROOT=:pserver:cvs@localhost:/var/cvsroot
 cvs login
 ```
+
+### Stop container
+```console
+docker container stop cvs 
+```
+
