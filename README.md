@@ -40,8 +40,10 @@ docker ps
 ```
 
 ### Stop container
+```console
+docker container stop "{CONTAINER_ID}" 
+```
 
-` docker container stop "{CONTAINER_ID}" `
 
 ### Connect to CVS
 ```console
