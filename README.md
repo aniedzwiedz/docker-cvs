@@ -18,8 +18,8 @@ VOLUME
 ENV
 ---
 ```console
-$CVS_USER #cvsuser
-$CVS_PASSWD #cvspass
+$CVS_USER #cvs
+$CVS_PASSWD #cvs
 ```
 
 RUN
